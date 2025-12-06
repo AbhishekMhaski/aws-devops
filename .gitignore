@@ -1,0 +1,27 @@
+# Root level .gitignore for AWS DevOps project
+# Subdirectories (app/, terraform/) have their own .gitignore files
+
+# IDE files (applies to entire project)
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files (applies to entire project)
+.DS_Store
+Thumbs.db
+
+# Environment variables (root level only)
+.env
+.env.local
+.env.*.local
+
+# Logs (root level)
+*.log
+
+# Temporary files (root level)
+tmp/
+temp/
+deployment-outputs.txt
+outputs.txt

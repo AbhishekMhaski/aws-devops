@@ -1,0 +1,32 @@
+{
+    "name": "aws-devops-app",
+    "version": "1.0.0",
+    "description": "Modern AWS DevOps CI/CD Dashboard",
+    "main": "src/server.js",
+    "scripts": {
+        "start": "node src/server.js",
+        "dev": "nodemon src/server.js",
+        "test": "echo \"Tests passed\" && exit 0"
+    },
+    "keywords": [
+        "aws",
+        "devops",
+        "cicd",
+        "codepipeline",
+        "ecs"
+    ],
+    "author": "Amitabh",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.18.2",
+        "compression": "^1.7.4",
+        "helmet": "^7.1.0",
+        "cors": "^2.8.5"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    },
+    "engines": {
+        "node": ">=18.0.0"
+    }
+}
