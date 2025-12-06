@@ -303,7 +303,7 @@ git push origin main
 
 - Pipeline Screenshot
 
-![pipeline](screenshots/6.png)
+  ![pipeline](screenshots/6.png)
 
 ### Monitoring & Logging
 
